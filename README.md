@@ -1,3 +1,4 @@
 # TechVayuna
 
-# This repository consists of the projects,weekly tasks thathas been assigned to me.
+This repository consists of the projects,weekly tasks that has been assigned.
+
