@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        .menu {
+            width: 65%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFDAB9;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        .menu-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item h3 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .price {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+      <h1>DesertDreams</h1>
+        <center>
+        <p>Just stressed, Your new Desert Destination...</p>
+        </center>
+        <hr color="black">
+        <h1>Ala carte🍽️</h1>
+        <hr color="black">
+
+        <div class="menu-item">
+            <h3>Choco Truffle <span class="price">$8.99</span></h3>
+            <p>A classic choco truffle filled with mascarponia white chocolate.</p>
+            <p>Calories:1234 kcal</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Stuffed Mousee<span class="price">$9.99</span></h3>
+            <p>A dry mousee filled with hot chcolate sauce, served with sweet cream.</p>
+            <p>Calories:228 kcal</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Chocolate SpinCake <span class="price">$6.50</span></h3>
+            <p>A rich chocolate cake topped with cream chocolate frosting,dressed with Italian butter sauce .</p>
+            <p>Calories:298 kcal</p>
+        </div>
+
+        <div class="menu-item">
+          <h3>Tiramisu <span class="price">$60.23</span></h3>
+          <p>A rich tiramisu topped and served with cremilea,coated with vanished fondant.</p>
+          <p>Calories:1089 kcal</p>
+        </div>
+
+       <div class="menu-item">
+        <h3> Hash Brownie <span class="price">$34.18</span></h3>
+        <p> A choco browine, filled with extra sugar cream and coated with honey.</p>
+        <p>Calories:345 kcal</p>
+       </div>
+
+      <div class="menu-item">
+      <h3>Dragon Cheese puff <span class="price">$21.96</span></h3>
+      <p>A puff filled with cream cheese and dipped in butter honey mixture.</p>
+      <p>Calories:567 kcal</p>
+     </div>
+
+    </div>
+
+</body>
+</html>
